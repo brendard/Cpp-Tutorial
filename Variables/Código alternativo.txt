@@ -1,0 +1,41 @@
+Este código es una versión alternativa de Var_declare.cpp que no utiliza espacio de nombres (namespaces).
+Sin embargo, puede llegar a dar problemas de compilación si, por ejemplo, se quieren declarar variables 
+del mismo tipo en lista. Sin embargo, compila bastante bien en cpp.sh (una shell de c++ online), mientras que en
+Jupyter Notebook (C++11,C++14 y C++17) también lo hace omitiendo el comando int main () y excluyendo las librerías, 
+excepto iostream.
+
+#include <iostream>   //Librería estándar para operaciones de entrada y salida
+#include <string>     //Librería estándar para operar con cadenas de caracteres de un solo byte
+
+int main(){
+	int myNum = 5;                  // El comando int permite declarar variables enteras individualmente
+	int myAge = 35;
+	int x = 5;
+	int y = 6;
+	int z = 50;
+	int sum=x + y;                  // El comando int también permite declarar operaciones matemáticas con variables enteras
+	const int _minutesPerHour = 60; // El comando const int permite declarar constantes enteras
+	const float numberPi = 3.14;    // El comando const float permite declarar fracciones constantes (4 bytes)
+	double myFloatNum = 5.99;       // El comando const float permite declarar fracciones constantes (8 bytes)
+	char myLetter = 'D';            // El comando char permite declarar un sólo caracter, número o letra
+	std::string myText = "Hello";   // Como no se utiliza el namespace, hay que añadir std:: al string que se desea declarar
+	bool myBoolean = true;          // Declaración de variable booleana. La salida es 1 si es verdadero, 0 si es falso
+	
+	/*Una vez se han declarado todas las variables, se procede a mostrar la salida de cada variable declarada individualmente*/
+	std::cout << "int: " << myNum << "\n";
+	std::cout << "float: " << myFloatNum << "\n";
+	std::cout << "char: " << myLetter << "\n";
+	std::cout << "str: " << myText << "\n";
+	std::cout << "bool: " << myBoolean << "\n\n";            /*Se deja deliberadamente un espacio en blanco para separar variables
+												             individuales de aquellas combinadas entre sí*/
+	
+	std::cout << "I am " << myAge << " years old." << "\n";  /*En este comando se unen variabes enteras con strings sin tener 
+															 que convertir previamente el entero en string*/
+	std::cout << "x plus y is: " << sum << "\n";
+	std::cout << x + y + z << "\n";
+	std::cout << "The minutes per hour are: " << _minutesPerHour << "\n";
+	std::cout << "The value of Pi number is: " << numberPi << "\n";
+
+	system("pause");          //Frena la ejecución del programa
+	return 0;                 //Finaliza el programa
+}

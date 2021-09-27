@@ -1,0 +1,30 @@
+/*Hay dos maneras de presentar una función, siendo la opción b la preferida por ser más fácil de leer
+(ambas opciones de escritura de código están en el archivo function_opt.txt)*/
+
+	//a) Creando la función antes de iniciar el programa
+
+		// Create a function
+		/*void myFunction() {
+		  cout << "I just got executed!";
+		}		
+
+		int main() {
+		  myFunction(); // call the function
+		  return 0;
+		}*/
+
+		
+	//b) Declarando la función, llamando la misma iniciando el programa y definiendo la función que se va a llamar, en ese estricto orden
+
+		// Function declaration
+		/*void myFunction();
+
+		int main() {
+		  myFunction(); // call the function
+		  return 0;
+		}*/
+
+		// Function definition
+		/*void myFunction() {
+		  cout << "I just got executed!";
+		}*/
