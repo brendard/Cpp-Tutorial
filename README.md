@@ -1,7 +1,8 @@
 # Cpp-Tutorial
-This repository is a project created on Visual Studio using the language Cpp. The whole project is inspired on the web tutorial offered by w3schools. 
+Este repositorio es un proyecto creado en Visual Studio utilizando el lenguaje Cpp. Todo el proyecto está inspirado en el tutorial web ofrecido por w3schools.com
 
-The solution has several porjects inside, whose explanation is completely written in Spanish language, so that anyone who is not English speaker can learn how to program with Cpp. 
-Later on, I'll enhance this repository with source codes portraying what I'd be learning (OOP, Encapsulation, Polymorphism, etc).
+La solución tiene varios proyectos en su interior, cuya explicación está completamente escrita en idioma español, para que cualquier persona que no sea angloparlante pueda aprender a programar con Cpp sin tener necesariamente competencia completa en inglés. 
 
-Disclaimer: the projects are done with my own codes, even though these were inspired in the aforementioned web tutorial. 
+Más adelante, mejoraré este repositorio con códigos fuente que describan lo que estaría aprendiendo (OOP, encapsulación, polimorfismo, etc.).
+
+Descargo de responsabilidad: los proyectos se realizan con mis propios códigos, aunque estos se inspiraron en el tutorial web mencionado anteriormente.
