@@ -1,0 +1,17 @@
+Ejemplo de cómo crear una matriz a base de vectores
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main(){std::vector<std::vector<string>> matrix = { {"Volvo","Mazda","BMW","Citroen"},
+                                           {"Volvo","Mazda","BMW","Alfa Romeo"}, 
+                                           {"Volvo","Mazda","BMW","Mercedes"}
+                                         };
+for(int i = 0; i < 3; ++i)
+{
+    for(int j = 0; j < 4; ++j)
+    {
+        std::cout << matrix[i][j] << std::endl;
+    }
+}}

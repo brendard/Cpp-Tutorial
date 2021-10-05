@@ -3,25 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hola_mundo", "Project3\Project3.vcxproj", "{F98E5532-BC1B-42F5-A1ED-0B6F4FC512A4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "a. Hola_mundo", "Project3\Project3.vcxproj", "{F98E5532-BC1B-42F5-A1ED-0B6F4FC512A4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Variables", "Variables\Variables.vcxproj", "{F75C1EE3-7CFF-4DEC-B5A1-B77DED082ACD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "b. Variables", "Variables\Variables.vcxproj", "{F75C1EE3-7CFF-4DEC-B5A1-B77DED082ACD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Var_input", "Var_input\Var_input.vcxproj", "{E00F4035-DEBF-41A6-A073-89C0166CEF3F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "e. Var_input", "Var_input\Var_input.vcxproj", "{E00F4035-DEBF-41A6-A073-89C0166CEF3F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Operators", "Operators\Operators.vcxproj", "{6A58DF1C-6624-4A76-AFA2-1465F34934B0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c. Operators", "Operators\Operators.vcxproj", "{6A58DF1C-6624-4A76-AFA2-1465F34934B0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strings", "Strings\Strings.vcxproj", "{400BB95D-4EA9-4FF3-BAA0-B0A59DC2E651}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "d. Strings", "Strings\Strings.vcxproj", "{400BB95D-4EA9-4FF3-BAA0-B0A59DC2E651}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Conditions", "Conditions\Conditions.vcxproj", "{F4D06970-DD5F-45F5-9D4D-C9C2C2AFEE25}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "f. Conditions", "Conditions\Conditions.vcxproj", "{F4D06970-DD5F-45F5-9D4D-C9C2C2AFEE25}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Switch_case_default", "Switch_case_default\Switch_case_default.vcxproj", "{297CD5B6-D0C3-411B-93AF-CAC525D65F64}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "g. Switch_case_default", "Switch_case_default\Switch_case_default.vcxproj", "{297CD5B6-D0C3-411B-93AF-CAC525D65F64}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loops", "Loops\Loops.vcxproj", "{A3A02036-8DA3-4284-BF11-F9DF6208352E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "h. Loops", "Loops\Loops.vcxproj", "{A3A02036-8DA3-4284-BF11-F9DF6208352E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "References_pointers", "References_pointers\References_pointers.vcxproj", "{1C969187-541A-49A2-BFF8-5067D8354088}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "i. References_pointers", "References_pointers\References_pointers.vcxproj", "{1C969187-541A-49A2-BFF8-5067D8354088}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions\Functions.vcxproj", "{9D17DA7E-9770-446F-BD1C-526A13280083}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "j. Functions", "Functions\Functions.vcxproj", "{9D17DA7E-9770-446F-BD1C-526A13280083}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "k. Class_and_objects", "Class_and_objects\Class_and_objects.vcxproj", "{CE218CA2-E32D-4642-842A-F15D3CDBB33C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "l. Constructors", "l. Constructors\l. Constructors.vcxproj", "{AE3D198F-83B2-4F93-8369-7E8BCA1389D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,22 @@ Global
 		{9D17DA7E-9770-446F-BD1C-526A13280083}.Release|x64.Build.0 = Release|x64
 		{9D17DA7E-9770-446F-BD1C-526A13280083}.Release|x86.ActiveCfg = Release|Win32
 		{9D17DA7E-9770-446F-BD1C-526A13280083}.Release|x86.Build.0 = Release|Win32
+		{CE218CA2-E32D-4642-842A-F15D3CDBB33C}.Debug|x64.ActiveCfg = Debug|x64
+		{CE218CA2-E32D-4642-842A-F15D3CDBB33C}.Debug|x64.Build.0 = Debug|x64
+		{CE218CA2-E32D-4642-842A-F15D3CDBB33C}.Debug|x86.ActiveCfg = Debug|Win32
+		{CE218CA2-E32D-4642-842A-F15D3CDBB33C}.Debug|x86.Build.0 = Debug|Win32
+		{CE218CA2-E32D-4642-842A-F15D3CDBB33C}.Release|x64.ActiveCfg = Release|x64
+		{CE218CA2-E32D-4642-842A-F15D3CDBB33C}.Release|x64.Build.0 = Release|x64
+		{CE218CA2-E32D-4642-842A-F15D3CDBB33C}.Release|x86.ActiveCfg = Release|Win32
+		{CE218CA2-E32D-4642-842A-F15D3CDBB33C}.Release|x86.Build.0 = Release|Win32
+		{AE3D198F-83B2-4F93-8369-7E8BCA1389D2}.Debug|x64.ActiveCfg = Debug|x64
+		{AE3D198F-83B2-4F93-8369-7E8BCA1389D2}.Debug|x64.Build.0 = Debug|x64
+		{AE3D198F-83B2-4F93-8369-7E8BCA1389D2}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE3D198F-83B2-4F93-8369-7E8BCA1389D2}.Debug|x86.Build.0 = Debug|Win32
+		{AE3D198F-83B2-4F93-8369-7E8BCA1389D2}.Release|x64.ActiveCfg = Release|x64
+		{AE3D198F-83B2-4F93-8369-7E8BCA1389D2}.Release|x64.Build.0 = Release|x64
+		{AE3D198F-83B2-4F93-8369-7E8BCA1389D2}.Release|x86.ActiveCfg = Release|Win32
+		{AE3D198F-83B2-4F93-8369-7E8BCA1389D2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

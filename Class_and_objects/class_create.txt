@@ -1,0 +1,70 @@
+I. Ejemplo de cómo crear una clase (sin método)
+
+class MyClass {      // Creación de la clase por medio de la palabra clave "class"
+  public:             // Especificador de acceso con la palabra clave public
+    int myNum;        // Atributo (variable entera)
+    string myString;  // Atributo (variable string)
+};
+
+
+II. Ejemplo de cómo crear una clase (con método)
+
+Los métodos son funciones que pertenecen a una clase
+
+Hay dos maneras de definir funciones que pertenecen a una clase:
+
+a) Dentro de la definición de la clase
+
+class MyClass {        // La clase
+  public:              // El especificador de acceso
+    void myMethod() {  // Método o función definida dentro de la clase
+      cout << "Hello World!";
+    }
+};
+
+int main() {
+  MyClass myObj;     // Objeto creado dentro de la clase
+  myObj.myMethod();  // Llamada del método
+  return 0;
+}
+
+b) Fuera de la definición de la clase
+
+class MyClass {        // La clase
+  public:              // Especificador de acceso
+    void myMethod();   // Declaración del método o función
+};
+
+// Definición del método o función fuera de la clase 
+void MyClass::myMethod() { /*Para poder definir el método fuera de la clase, se debe definir el nombre de la clase, seguida del operador
+                           de resolución de alcance (::) y por último se especifica el nómbre del método o función*/ 
+                           
+  cout << "Hello World!";
+}
+
+int main() {
+  MyClass myObj;     // Crear un objeto asociado a la clase
+  myObj.myMethod();  // Llamada del método
+  return 0;
+}
+
+Nota: Se puede acceder a los métodos del mismo modo que se accede a los atributos; creando un objeto de la clase 
+y usando la sintaxis de puntos (.)
+
+También se pueden añadir parámetros, además de usar la palabra clave return para que la función arroje un valor de vuelta:
+
+class Car {
+  public:
+    int speed(int maxSpeed);
+};
+
+int Car::speed(int maxSpeed) {
+  return maxSpeed;
+}
+
+int main() {
+  Car myObj; // Create an object of Car
+  cout << myObj.speed(200); // Llamada del método con un argumento
+  return 0;
+}
+
